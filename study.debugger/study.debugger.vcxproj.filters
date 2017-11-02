@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="_StructByteAlignment">
+      <UniqueIdentifier>{22160a7d-c152-43f3-a324-a2ab86deaed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_TIB">
+      <UniqueIdentifier>{4398283d-188b-440c-9e72-39bc1e4e536b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +30,12 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\StructByteAlignment.h">
+      <Filter>_StructByteAlignment</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TIBInfo.h">
+      <Filter>_TIB</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +43,12 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StructByteAlignment.cpp">
+      <Filter>_StructByteAlignment</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TIBInfo.cpp">
+      <Filter>_TIB</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
