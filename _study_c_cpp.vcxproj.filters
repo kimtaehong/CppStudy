@@ -1,3 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\TIBInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StructByteAlignment.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="_study_c_spp_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_boot_bind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32Utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_win32_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_r_l_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\TIBInfo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StructByteAlignment.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32Study.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32Utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{683a61ba-f473-4f49-94d7-7df8cedf90a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{870b5f82-03e6-428e-bcc4-982578a84009}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
 </Project>
